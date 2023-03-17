@@ -13,5 +13,13 @@ namespace bytebank_ADM_.Funcionarios
         {
             return this.Salario + base.GetBonificacao();
         }
+        public override void aumentarSalario()
+        {
+            Salario += Salario * 0.15;
+        }
+        public Diretor(string cpf, double salario):base(cpf, salario)
+        {
+            //Console.WriteLine("Criando um diretor");
+        }
     }
 }
