@@ -1,0 +1,15 @@
+C:\Users\iprem\source\repos\HerancaInterfaces\DesafioCalculadora\bin\Debug\net6.0\DesafioCalculadora.exe
+C:\Users\iprem\source\repos\HerancaInterfaces\DesafioCalculadora\bin\Debug\net6.0\DesafioCalculadora.deps.json
+C:\Users\iprem\source\repos\HerancaInterfaces\DesafioCalculadora\bin\Debug\net6.0\DesafioCalculadora.runtimeconfig.json
+C:\Users\iprem\source\repos\HerancaInterfaces\DesafioCalculadora\bin\Debug\net6.0\DesafioCalculadora.dll
+C:\Users\iprem\source\repos\HerancaInterfaces\DesafioCalculadora\bin\Debug\net6.0\DesafioCalculadora.pdb
+C:\Users\iprem\source\repos\HerancaInterfaces\DesafioCalculadora\obj\Debug\net6.0\DesafioCalculadora.csproj.AssemblyReference.cache
+C:\Users\iprem\source\repos\HerancaInterfaces\DesafioCalculadora\obj\Debug\net6.0\DesafioCalculadora.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\iprem\source\repos\HerancaInterfaces\DesafioCalculadora\obj\Debug\net6.0\DesafioCalculadora.AssemblyInfoInputs.cache
+C:\Users\iprem\source\repos\HerancaInterfaces\DesafioCalculadora\obj\Debug\net6.0\DesafioCalculadora.AssemblyInfo.cs
+C:\Users\iprem\source\repos\HerancaInterfaces\DesafioCalculadora\obj\Debug\net6.0\DesafioCalculadora.csproj.CoreCompileInputs.cache
+C:\Users\iprem\source\repos\HerancaInterfaces\DesafioCalculadora\obj\Debug\net6.0\DesafioCalculadora.dll
+C:\Users\iprem\source\repos\HerancaInterfaces\DesafioCalculadora\obj\Debug\net6.0\refint\DesafioCalculadora.dll
+C:\Users\iprem\source\repos\HerancaInterfaces\DesafioCalculadora\obj\Debug\net6.0\DesafioCalculadora.pdb
+C:\Users\iprem\source\repos\HerancaInterfaces\DesafioCalculadora\obj\Debug\net6.0\DesafioCalculadora.genruntimeconfig.cache
+C:\Users\iprem\source\repos\HerancaInterfaces\DesafioCalculadora\obj\Debug\net6.0\ref\DesafioCalculadora.dll
