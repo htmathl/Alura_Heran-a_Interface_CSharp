@@ -13,7 +13,7 @@ namespace bytebank_ADM_.Utilitario
 
         public void registrar(Funcionario funcionario)
         {
-            TotalDeBonificacao += funcionario.GetBonificacao();
+            TotalDeBonificacao += funcionario.Bonificacao;
         }
         ////sobrecarga de métodos
         //public void registrar(Diretor diretor)

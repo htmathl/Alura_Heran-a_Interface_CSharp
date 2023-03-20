@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33424.131
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bytebank_ADM", "bytebank_ADM]\bytebank_ADM.csproj", "{929EB616-AF5A-4B82-81C3-B05F3F983672}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "bytebank_ADM", "bytebank_ADM]\bytebank_ADM.csproj", "{929EB616-AF5A-4B82-81C3-B05F3F983672}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioCalculadora", "DesafioCalculadora\DesafioCalculadora.csproj", "{9B7BB83D-5677-4059-A44A-67F26050F2A4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesafioCalculadora", "DesafioCalculadora\DesafioCalculadora.csproj", "{9B7BB83D-5677-4059-A44A-67F26050F2A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioLivro", "DesafioLivro\DesafioLivro.csproj", "{67CF6816-EB62-4BB3-B562-BDB5C4D1DF0C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{9B7BB83D-5677-4059-A44A-67F26050F2A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9B7BB83D-5677-4059-A44A-67F26050F2A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9B7BB83D-5677-4059-A44A-67F26050F2A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67CF6816-EB62-4BB3-B562-BDB5C4D1DF0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67CF6816-EB62-4BB3-B562-BDB5C4D1DF0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67CF6816-EB62-4BB3-B562-BDB5C4D1DF0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67CF6816-EB62-4BB3-B562-BDB5C4D1DF0C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
