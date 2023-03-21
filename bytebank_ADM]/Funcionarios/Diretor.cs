@@ -7,16 +7,12 @@ using System.Threading.Tasks;
 
 namespace bytebank_ADM_.Funcionarios
 {
-    public class Diretor:Autenticado
+    public class Diretor:FuncionarioAutenticado
     {
         //sobreescrevendo o método da classe funcionário
         public override double Bonificacao => Salario * 0.5;
-        public override void aumentarSalario() => Salario += Salario * 0.15;
 
-        public override bool autenticar(string login, string senha)
-        {
-            return Login == login && Senha == senha;
-        }
+        public override void aumentarSalario() => Salario += Salario * 0.15;
 
         public Diretor(string cpf) : base(cpf, 5000) { }
     }
