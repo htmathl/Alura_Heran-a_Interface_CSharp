@@ -72,19 +72,19 @@ void usarSistema()
 
     Diretor ingrid = new("5546464");
     ingrid.Nome = "Ingrid Novaes";
+    ingrid.Login = "ingrid.novaes";
     ingrid.Senha = "wow";
 
     GerenteDeContas ursula = new("6654646");
     ursula.Nome = "Ursula Souza";
+    ursula.Login = "ursula.souza";
     ursula.Senha = "123";
 
     Auxiliar henrrrique = new("365641");
     henrrrique.Nome = "Henrrique Silva";
-    henrrrique.Senha = "miau";
 
-    sistema.logar(ingrid, "wow");
-    sistema.logar(ursula, "miau");
-    sistema.logar(henrrrique, "miau");
+    sistema.logar(ingrid, "ingrid.novaes", "wow");
+    sistema.logar(ursula, "", "miau");
 }
 
 usarSistema();

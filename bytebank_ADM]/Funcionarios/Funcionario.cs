@@ -20,11 +20,8 @@ namespace bytebank_ADM_.Funcionarios
             this.Cpf = cpf;
             Salario = salario;
             TotalDeFuncionarios++;
-            Console.WriteLine("Criando um funcionário");
+            //Console.WriteLine("Criando um funcionário");
         }
         public abstract void aumentarSalario();
-
-        public string Senha { get; set; }
-        public bool autenticar(string senha) => Senha == senha;
     }
 }

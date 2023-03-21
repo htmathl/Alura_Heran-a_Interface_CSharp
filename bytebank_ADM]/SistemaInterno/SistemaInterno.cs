@@ -9,26 +9,15 @@ namespace bytebank_ADM_.SistemaInterno
 {
     public class SistemaInterno
     {
-        public bool logar(Diretor diretor, string senha)
+        public bool logar(Autenticado autenticado, string login, string senha)
         {
-            bool autenticacao = diretor.autenticar(senha);
+            bool autenticacao = autenticado.autenticar(login, senha);
             if (autenticacao)
             {
                 Console.WriteLine("Bem vindo ao sistema!");
                 return true;
             }
-            Console.WriteLine("Senha incorreta!");
-            return false;
-        }
-        public bool logar(GerenteDeContas gerenteDeContas, string senha)
-        {
-            bool autenticacao = gerenteDeContas.autenticar(senha);
-            if (autenticacao)
-            {
-                Console.WriteLine("Bem vindo ao sistema!");
-                return true;
-            }
-            Console.WriteLine("Senha incorreta!");
+            Console.WriteLine("Login ou senha incorretos!");
             return false;
         }
     }
