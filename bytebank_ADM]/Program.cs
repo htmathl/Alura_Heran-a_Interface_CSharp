@@ -1,4 +1,5 @@
 ﻿using bytebank_ADM_.Funcionarios;
+using bytebank_ADM_.Parceria;
 using bytebank_ADM_.SistemaInterno;
 using bytebank_ADM_.Utilitario;
 
@@ -85,6 +86,11 @@ void usarSistema()
 
     sistema.logar(ingrid, "ingrid.novaes", "wow");
     sistema.logar(ursula, "", "miau");
+
+    ParceirosComerciais caio = new();
+    caio.Senha = "auau";
+
+    sistema.logar(caio, "", "auau");
 }
 
 usarSistema();
