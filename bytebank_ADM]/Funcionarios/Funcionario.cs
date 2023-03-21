@@ -23,5 +23,8 @@ namespace bytebank_ADM_.Funcionarios
             Console.WriteLine("Criando um funcionário");
         }
         public abstract void aumentarSalario();
+
+        public string Senha { get; set; }
+        public bool autenticar(string senha) => Senha == senha;
     }
 }
